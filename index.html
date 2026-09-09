@@ -1,0 +1,42 @@
+<!-- Top level module -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" context="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div class="controls">
+  <label>
+    Hours:
+    <input type="number" id="hoursInput" min="0" value="0" />
+  </label>
+  
+  <label>
+    Minutes:
+    <input type="number" id="minutesInput" min="0" value="0" />
+  </label>
+  
+  <label>
+    Seconds:
+    <input type="number" id="secondsInput" min="0" value="0" />
+  </label>
+
+  <button id="startButton" class="btn">
+        <svg width="100px" height="40px" viewBox="0 0 100 40" class="border">
+          <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+          <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+        </svg>
+        <span>Start Timer</span>
+      </button>
+
+
+    <canvas id="circleTimer"></canvas>
+
+    <script type="module" src="script.js"></script>
+    
+</body>
+</html>
