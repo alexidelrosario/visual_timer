@@ -4,6 +4,10 @@ A simple visual timer application built with JavaScript and [Electron](https://w
     <img src="./assets/visualTimer.png" width="50%" />
 </p>
 
+<p align="center">
+    <img src="./assets/visualTimer2.png" width="50%" />
+</p>
+
 ### Features
 - **Stays visible** over other desktop applications.
 - Timer **automatically scales** relative to window size.
