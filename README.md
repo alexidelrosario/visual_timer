@@ -18,7 +18,7 @@ A simple, always on top, visual timer built with JavaScript and Electron. Design
 <br>You can run the Visual Timer app directly on your device without downloading any extra software or dependencies. In standalone mode, the timer operates as a standard desktop window.
 
 **Option 2: Always Visible** 
-<br>To enable the always visible feature so the timer stays pinned over your active windows, you will need to install [Node.js](https://nodejs.org/):
+<br>To enable the always visible feature so the timer stays pinned over your active windows, you will need to install [Node.js](https://nodejs.org/).
 
 ```bash
 npm install
